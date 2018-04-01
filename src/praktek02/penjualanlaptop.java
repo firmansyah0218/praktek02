@@ -2,6 +2,11 @@ package praktek02;
 public class penjualanlaptop {
     int harga_laptop;
     int jumlah_barang;
+
+    public penjualanlaptop() {
+        this.harga_laptop = 5000000;
+        this.jumlah_barang = 2;
+    }
     
     void cetakInfo(){
         System.out.println("===================");
