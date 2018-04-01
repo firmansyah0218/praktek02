@@ -9,5 +9,6 @@ public class penjualanlaptopaksi {
         
         r1.cetakInfo();
         System.out.println("total   =   "+r1.hitungPenjualan());
+        
     }
 }
