@@ -16,5 +16,7 @@ public class penjualanlaptop {
             return total;
             
     }
-    
+    void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPenjualan());
+    }
 }
