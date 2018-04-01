@@ -6,5 +6,8 @@ public class penjualanlaptopaksi {
         
         r1.harga_laptop = 4000000;
         r1.jumlah_barang = 3;
+        
+        r1.cetakInfo();
+        System.out.println("total   =   "+r1.hitungPenjualan());
     }
 }
