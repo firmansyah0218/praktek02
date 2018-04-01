@@ -7,6 +7,13 @@ public class penjualanlaptop {
         this.harga_laptop = 5000000;
         this.jumlah_barang = 2;
     }
+
+    public penjualanlaptop(int harga_laptop, int jumlah_barang) {
+        this.harga_laptop = harga_laptop;
+        this.jumlah_barang = jumlah_barang;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("===================");

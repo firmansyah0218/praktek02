@@ -10,5 +10,11 @@ public class penjualanlaptopaksi {
         r1.cetakInfo();
         System.out.println("total   =   "+r1.hitungPenjualan());
         r1.cetaktotal();
+        
+        penjualanlaptop r2 = new penjualanlaptop();
+        r2.cetakInfo();
+        
+        penjualanlaptop r3 = new penjualanlaptop(6000000,2);
+        r3.cetakInfo();
     }
 }
